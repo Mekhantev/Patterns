@@ -37,6 +37,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\Beverage.cs" />
+    <Compile Include="Decorator\CondimentDecorator.cs" />
+    <Compile Include="Decorator\Espresso.cs" />
+    <Compile Include="Decorator\HouseBlend.cs" />
+    <Compile Include="Decorator\Mocha.cs" />
     <Compile Include="Observer\SimpleDisplay.cs" />
     <Compile Include="Observer\IDisplayElement.cs" />
     <Compile Include="Observer\ISubject.cs" />
