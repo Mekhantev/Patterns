@@ -42,6 +42,12 @@
     <Compile Include="Decorator\Espresso.cs" />
     <Compile Include="Decorator\HouseBlend.cs" />
     <Compile Include="Decorator\Mocha.cs" />
+    <Compile Include="FactoryMethod\ChicagoPizza.cs" />
+    <Compile Include="FactoryMethod\ChicagoPizzaStore.cs" />
+    <Compile Include="FactoryMethod\NYPizza.cs" />
+    <Compile Include="FactoryMethod\NYPizzaStore.cs" />
+    <Compile Include="FactoryMethod\Pizza.cs" />
+    <Compile Include="FactoryMethod\PizzaStore.cs" />
     <Compile Include="Observer\SimpleDisplay.cs" />
     <Compile Include="Observer\IDisplayElement.cs" />
     <Compile Include="Observer\ISubject.cs" />
