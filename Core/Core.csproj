@@ -37,6 +37,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Observer\SimpleDisplay.cs" />
+    <Compile Include="Observer\IDisplayElement.cs" />
+    <Compile Include="Observer\ISubject.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\WeatherData.cs" />
     <Compile Include="Strategy\Duck.cs" />
     <Compile Include="Strategy\FlyNoWay.cs" />
     <Compile Include="Strategy\FlyWithWings.cs" />
@@ -52,6 +57,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
