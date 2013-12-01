@@ -37,6 +37,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AfricaFactory.cs" />
+    <Compile Include="AbstractFactory\AmericaFactory.cs" />
+    <Compile Include="AbstractFactory\AnimalWorld.cs" />
+    <Compile Include="AbstractFactory\Bison.cs" />
+    <Compile Include="AbstractFactory\ContinentFactory.cs" />
+    <Compile Include="AbstractFactory\ICarnivore.cs" />
+    <Compile Include="AbstractFactory\IHerbivore.cs" />
+    <Compile Include="AbstractFactory\Lion.cs" />
+    <Compile Include="AbstractFactory\Wildebeest.cs" />
+    <Compile Include="AbstractFactory\Wolf.cs" />
     <Compile Include="Decorator\Beverage.cs" />
     <Compile Include="Decorator\CondimentDecorator.cs" />
     <Compile Include="Decorator\Espresso.cs" />
