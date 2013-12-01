@@ -47,6 +47,9 @@
     <Compile Include="AbstractFactory\Lion.cs" />
     <Compile Include="AbstractFactory\Wildebeest.cs" />
     <Compile Include="AbstractFactory\Wolf.cs" />
+    <Compile Include="Command\RemoteControl.cs" />
+    <Compile Include="Command\LightOnCommand.cs" />
+    <Compile Include="Command\ICommand.cs" />
     <Compile Include="Decorator\Beverage.cs" />
     <Compile Include="Decorator\CondimentDecorator.cs" />
     <Compile Include="Decorator\Espresso.cs" />
