@@ -63,6 +63,7 @@
     <Compile Include="Observer\ISubject.cs" />
     <Compile Include="Observer\IObserver.cs" />
     <Compile Include="Observer\WeatherData.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="Strategy\Duck.cs" />
     <Compile Include="Strategy\FlyNoWay.cs" />
     <Compile Include="Strategy\FlyWithWings.cs" />
