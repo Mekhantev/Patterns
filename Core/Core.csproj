@@ -60,6 +60,12 @@
     <Compile Include="Decorator\Espresso.cs" />
     <Compile Include="Decorator\HouseBlend.cs" />
     <Compile Include="Decorator\Mocha.cs" />
+    <Compile Include="Facade\IFacade.cs" />
+    <Compile Include="Facade\ISubSystem.cs" />
+    <Compile Include="Facade\SubSystemFour.cs" />
+    <Compile Include="Facade\SubSystemOne.cs" />
+    <Compile Include="Facade\SubSystemThree.cs" />
+    <Compile Include="Facade\SubSystemTwo.cs" />
     <Compile Include="FactoryMethod\ChicagoPizza.cs" />
     <Compile Include="FactoryMethod\ChicagoPizzaStore.cs" />
     <Compile Include="FactoryMethod\NYPizza.cs" />
