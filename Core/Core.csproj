@@ -47,6 +47,11 @@
     <Compile Include="AbstractFactory\Lion.cs" />
     <Compile Include="AbstractFactory\Wildebeest.cs" />
     <Compile Include="AbstractFactory\Wolf.cs" />
+    <Compile Include="Adapter\IDuck.cs" />
+    <Compile Include="Adapter\ITurkey.cs" />
+    <Compile Include="Adapter\MallardDuck.cs" />
+    <Compile Include="Adapter\TurkeyAdapter.cs" />
+    <Compile Include="Adapter\WildTurkey.cs" />
     <Compile Include="Command\RemoteControl.cs" />
     <Compile Include="Command\LightOnCommand.cs" />
     <Compile Include="Command\ICommand.cs" />
